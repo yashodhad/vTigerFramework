@@ -12,6 +12,5 @@ monthse=Select(month)
 lst=monthse.options
 for i in lst:
     print(i.text)
-
 for j in range(0,len(lst)):
     print(lst[j].text)
